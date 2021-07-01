@@ -3,6 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  ApiUrl: "https://safola.herokuapp.com",
   production: false
 };
 
