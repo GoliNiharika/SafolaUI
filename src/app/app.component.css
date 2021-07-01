@@ -1,0 +1,152 @@
+ngb-carousel .wrapper {
+  position: relative;
+  height: 0;
+  padding-top: 55%;
+}
+
+ngb-carousel .wrapper > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.division2 {
+  background-color: red;
+  float: right;
+  width: 600px;
+  height: 600px;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 60%;
+  border-color: blue;
+  border-left: 25px rgb(248, 211, 3) solid;
+}
+
+.color {
+  background-color: rgb(245, 245, 99);
+  margin-left: 0em;
+}
+.images {
+  padding: 2rem;
+}
+.text {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.snack {
+  color: gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  margin-left: 20%;
+}
+.oats {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  margin-left: 20%;
+}
+
+.slide3 {
+  background-color: rgb(255, 195, 43,1);
+}
+.logo{
+  margin-left: 3rem;
+  /* margin-top: 5rem; */
+}
+.p1{
+  flex-wrap: wrap;
+  font-family: cursive;
+  font-weight: bold;
+  color: black;
+}
+h1{
+  color: red;
+  font-family: cursive;
+  font-weight: bold ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.para {
+  margin-left: 6rem;
+  color: rgb(114, 111, 111);
+  font-size: small;
+  margin-top: 2rem;
+}
+.features {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.p2{
+  flex-wrap: wrap;
+  font-family: cursive;
+  font-weight: 500;
+  color: black;
+}
+.slide4 {
+  background-color: #ffc10742;
+}
+.steps {
+  margin-left: 7rem;
+}
+.slide2{
+  background-color:#ffc10742;
+}
+.classicMasala{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.slide2header{
+  color: red;
+  font-family: cursive;
+  font-weight: bold ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.slide2para{
+  display: flex;
+  justify-content: center;
+  color:black;
+  font-weight: bold;
+  font-size: medium;
+}
+.first .carousel-control-prev
+{
+    display:none;
+}
+.last .carousel-control-next {
+    display: none;
+}
+
+.card {
+ margin-left: 6rem;
+ height: 100px;
+ width: 300px;
+ background: #f9fafb7a 0% 0% no-repeat padding-box;
+ box-shadow: 3px 3px 3px lightsalmon;
+ border-color: #dc354557;
+}
+.cardDesc{
+  display: flex;
+  justify-content: center;
+}
+.slide2carousel{
+  margin-top: 6rem;
+}
+/* .slide2img{
+  width: 50px;
+  height: 30px;
+} */
+.slide2p{
+  margin-top: 1.2rem;
+  font-family: cursive;
+  font-weight: bold;
+}
