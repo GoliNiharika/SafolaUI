@@ -60,89 +60,89 @@
 
 
 
-<ngb-carousel [activeId]="1" class="slide2carousel">
-  <ng-template ngbSlide>
-    <div class="row">
-      <div class="col-4">
-        <div class="card">
-          <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <img src="../assets/slide2sub3.JPG" alt="" height="80px" width="90px">
+    <ngb-carousel [activeId]="1" class="slide2carousel">
+      <ng-template ngbSlide>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/slide2sub3.JPG" alt="" height="80px" width="90px">
+                    </div>
+                    <div class="col cardDesc">
+                      <p class="slide2p">Classic Oats</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <img src="../assets/slide2sub2.JPG" alt="" height="80px" width="90px">
+                  </div>
+                  <div class="col cardDesc">
+                    <p class="slide2p">Masala Oats</p>
+                  </div>
                 </div>
-                <div class="col cardDesc">
-                  <p class="slide2p">Classic Oats</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <img src="../assets/slide2sub3.JPG" alt="" height="80px" width="90px">
+                  </div>
+                  <div class="col cardDesc">
+                    <p class="slide2p">High Fiber Oats</p>
+                  </div>
                 </div>
               </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col">
-                <img src="../assets/slide2sub2.JPG" alt="" height="80px" width="90px">
-              </div>
-              <div class="col cardDesc">
-                <p class="slide2p">Masala Oats</p>
-              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-4">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col">
-                <img src="../assets/slide2sub3.JPG" alt="" height="80px" width="90px">
-              </div>
-              <div class="col cardDesc">
-                <p class="slide2p">High Fiber Oats</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </ng-template>
+      </ng-template>
 
-  <ng-template ngbSlide>
-    <div class="row">
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col">
-                <img src="../assets/slide2sub4.JPG" alt="" height="80px" width="90px" style="margin-bottom: 2rem;">
+      <ng-template ngbSlide>
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <img src="../assets/slide2sub4.JPG" alt="" height="80px" width="90px" style="margin-bottom: 2rem;">
+                  </div>
+                  <div class="col cardDesc">
+                    <p class="slide2p">Oats</p>
+                  </div>
+                </div>
               </div>
-              <div class="col cardDesc">
-                <p class="slide2p">Oats</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <img src="../assets/slide2sub2.JPG" alt="" height="80px" width="90px">
+                  </div>
+                  <div class="col cardDesc">
+                    <p class="slide2p">Classic Oats</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col">
-                <img src="../assets/slide2sub2.JPG" alt="" height="80px" width="90px">
-              </div>
-              <div class="col cardDesc">
-                <p class="slide2p">Classic Oats</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </ng-template>
-</ngb-carousel>
+      </ng-template>
+    </ngb-carousel>
 
 
 
@@ -213,6 +213,7 @@
   </div>
 
 
+
   <div class="row slide4" style="height: 600px">
     <h1 class="mb-5"> Delicious and healthy too!</h1>
     <div class="row steps">
@@ -225,5 +226,41 @@
     </div>
   </div>
 
+  <div class="row slide4" style="background-color: red; height: 600px">
+    <div class="row">
+      <div class="col">
+        <h2 class="mb-5 slide5Header" style="color: white; margin-left: 25rem;"> Follow us</h2>
+      </div>
+      <div class="col">
+        <h2 class="mb-5 slide5Header" style="color: goldenrod;">@safolafitfoodie</h2>
+      </div>
+    </div>
+    <div class="row steps">
+      <div class="col-3" *ngFor="let step of steps">
+        <div class="logo">
+          <img [src]="step.src" alt="">
+          <p class="p2">{{step.desc}}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row slide5" style="background-color: pink; height: 700px">
+    <div class="row" style="height: 150px;">
+      <h2 class="slide5Header">Streaming Yummy recipies with Oats</h2>
+    </div>
+    <div class="row" style="height: 20px;">
+      <nav class="nav topnav">
+        <a  class="nav-item" >Indian</a>
+        <a  class="nav-item" >Italian</a>
+        <a  class="nav-item" >Continental</a>
+        <a  class="nav-item" >More</a>
+      </nav>
+    </div>
+    <div class="row" style="height: 300px;">
+     <app-carousel></app-carousel>
+    </div>
+  </div>
 
 </div>

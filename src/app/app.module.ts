@@ -6,15 +6,21 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
+import { CarouselComponent } from './carousel/carousel.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]

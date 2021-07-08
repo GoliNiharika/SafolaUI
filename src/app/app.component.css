@@ -150,3 +150,47 @@ h1{
   font-family: cursive;
   font-weight: bold;
 }
+.slide5Header{
+  margin-top: 7rem;
+  font-family: cursive;
+}
+
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-item {
+  font-weight: bolder;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+.slide5Header {
+  color: red;
+  font-family: cursive;
+  font-weight: bold ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10rem;
+}
+
