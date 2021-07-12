@@ -1,46 +1,48 @@
 <div class="container">
-  <ngb-carousel class="col-12">
-    <ng-template ngbSlide>
-      <div >
-        <div class="row color" >
-          <div class="col-6">
-            <img src="http://cdn.shopify.com/s/files/1/0918/9504/products/msa_grande.JPG?v=1437988626" class="images" alt="">
-          </div>
-          <div class="col-6 division2">
-            <app-navbar></app-navbar>
-            <p class="text"> lip-smacking flavors to </p>
-            <p class="snack">snack healthy</p>
-            <p class="oats">with wholegrain oats + real veggies</p>
-          </div>
-        </div>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="color">
-        <div class="row">
-          <div class="col-6">
-            <img src="https://i.ytimg.com/vi/LMHBJCCaRmk/hqdefault.jpg" alt="">
-          </div>
-          <div class="col-6 division2">
-            <app-navbar></app-navbar>
+  <div class="row" style="height: 800px;">
+    <ngb-carousel class="col-12 modal hide">
+      <ng-template ngbSlide>
+        <div >
+          <div class="row color" >
+            <div class="col-6">
+              <img src="http://cdn.shopify.com/s/files/1/0918/9504/products/msa_grande.JPG?v=1437988626" class="images" alt="">
+            </div>
+            <div class="col-6 division2">
+              <app-navbar></app-navbar>
+              <p class="text"> lip-smacking flavors to </p>
+              <p class="snack">snack healthy</p>
+              <p class="oats">with wholegrain oats + real veggies</p>
+            </div>
           </div>
         </div>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="color">
-        <div class="row">
-          <div class="col-6">
-          </div>
-          <div class="col-6 division2">
-            <app-navbar></app-navbar>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="color">
+          <div class="row">
+            <div class="col-6">
+              <img src="https://i.ytimg.com/vi/LMHBJCCaRmk/hqdefault.jpg" alt="">
+            </div>
+            <div class="col-6 division2">
+              <app-navbar></app-navbar>
+            </div>
           </div>
         </div>
-      </div>
-    </ng-template>
-  </ngb-carousel>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="color">
+          <div class="row">
+            <div class="col-6">
+            </div>
+            <div class="col-6 division2">
+              <app-navbar></app-navbar>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
 
- <div class="row slide2" style="height: 800px;">
+ <div class="row slide2 slide2Zigzag" style="height: 800px;">
   <div class="row" style="height: 500px;">
     <div class="col-6 classicMasala">
       <img src="../assets/slide2.JPG" width="400px" height="400px">
@@ -214,8 +216,8 @@
 
 
 
-  <div class="row slide4" style="height: 600px">
-    <h1 class="mb-5"> Delicious and healthy too!</h1>
+  <div class="row slide4 slide4Zigzag" style="height: 600px">
+    <h1 class="mb-5"> Easy to Cook Easy to serve!</h1>
     <div class="row steps">
       <div class="col-3" *ngFor="let step of steps">
         <div class="logo">
@@ -226,7 +228,26 @@
     </div>
   </div>
 
-  <div class="row slide4" style="background-color: red; height: 600px">
+
+  <div class="row slide5 zigzag" style="background-color: yellow; height: 700px">
+    <div class="row" style="height: 150px;">
+      <h2 class="slide5Header">Streaming Yummy recipies with Oats</h2>
+    </div>
+    <div class="row" style="height: 20px;">
+      <nav class="nav topnav">
+        <a  class="nav-item" >Indian</a>
+        <a  class="nav-item" >Italian</a>
+        <a  class="nav-item" >Continental</a>
+        <a  class="nav-item" >More</a>
+      </nav>
+    </div>
+    <div class="row" style="height: 300px;">
+     <app-carousel></app-carousel>
+    </div>
+  </div>
+
+
+  <div class="row slide4 zigzagTop" style="background-color: red; height: 700px">
     <div class="row">
       <div class="col">
         <h2 class="mb-5 slide5Header" style="color: white; margin-left: 25rem;"> Follow us</h2>
@@ -244,23 +265,6 @@
       </div>
     </div>
 
-  </div>
-
-  <div class="row slide5" style="background-color: pink; height: 700px">
-    <div class="row" style="height: 150px;">
-      <h2 class="slide5Header">Streaming Yummy recipies with Oats</h2>
-    </div>
-    <div class="row" style="height: 20px;">
-      <nav class="nav topnav">
-        <a  class="nav-item" >Indian</a>
-        <a  class="nav-item" >Italian</a>
-        <a  class="nav-item" >Continental</a>
-        <a  class="nav-item" >More</a>
-      </nav>
-    </div>
-    <div class="row" style="height: 300px;">
-     <app-carousel></app-carousel>
-    </div>
   </div>
 
 </div>
