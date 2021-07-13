@@ -282,3 +282,17 @@ height: 32px;
     text-decoration: underline;
     color: aqua;
 }
+
+.lastSlideCarousel{
+ margin-left: 4rem;
+ height: 300px;
+ width: 300px;
+ background: #f9fafb7a 0% 0% no-repeat padding-box;
+ box-shadow: 3px 3px 3px lightsalmon;
+ border-color: #dc354557;
+}
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
