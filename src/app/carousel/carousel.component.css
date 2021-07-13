@@ -4,10 +4,15 @@
 }
 
 .ButtonOnImage {
+  border-radius: 10px 0px 10px 0px;
   background-color: red;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 3rem;
   position: absolute;
   bottom: 0px;
   right: 0px;
+}
+
+.card {
+  border-radius: 10px 10px 10px 10px;
 }

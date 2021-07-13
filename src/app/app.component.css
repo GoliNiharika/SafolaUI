@@ -11,6 +11,11 @@ ngb-carousel .wrapper > img {
   bottom: 0;
   right: 0;
 }
+
+.imageSlide1 {
+  background: 100% 100% url("/src/assets/masala-oats.jpg");
+}
+
 .division2 {
   margin-left: 3em;
   background-color: red;
@@ -195,6 +200,12 @@ h1{
   margin-top:10rem;
 }
 
+.slide6Header{
+  font-family: cursive;
+  font-weight: bold ;
+  margin-top: 4rem;
+}
+
 .zigzag {
     position: relative;
     padding: 8px 8px 32px 8px;
@@ -218,7 +229,7 @@ h1{
 .slide2Zigzag {
   position: relative;
   padding: 8px 8px 32px 8px;
-  background: #dddccf;
+  background: #ffc10742;
 }
 
 .slide2Zigzag:after {
@@ -238,11 +249,11 @@ height: 32px;
 .slide4Zigzag {
   position: relative;
   padding: 8px 8px 32px 8px;
-  background: #dddccf;
+  background: #ffc10742;
 }
 
 .slide4Zigzag:after {
-background: linear-gradient(-45deg, yellow 16px, transparent 0), linear-gradient(45deg, yellow 16px, transparent 0);
+background: linear-gradient(-45deg, #f7e603 16px, transparent 0), linear-gradient(45deg, #f7e603 16px, transparent 0);
 background-position: left-bottom;
 background-repeat: repeat-x;
 background-size: 32px 32px;
@@ -253,4 +264,21 @@ bottom: 0px;
 left: 0px;
 width: 100%;
 height: 32px;
+}
+
+.socialmedia{
+  size: 2px;
+  color: #dddccf;
+}
+
+.anchorTag
+ {
+    text-decoration: none;
+    color: #dddccf;
+   }
+
+.anchorTag:hover
+ {
+    text-decoration: underline;
+    color: aqua;
 }

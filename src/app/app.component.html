@@ -5,7 +5,7 @@
         <div >
           <div class="row color" >
             <div class="col-6">
-              <img src="http://cdn.shopify.com/s/files/1/0918/9504/products/msa_grande.JPG?v=1437988626" class="images" alt="">
+              <img  class="imageSlide1" alt="">
             </div>
             <div class="col-6 division2">
               <app-navbar></app-navbar>
@@ -210,7 +210,7 @@
       </div>
     </div>
     <div class="col-5">
-      <img src="../assets/Slide3.JPG"  width="100%" height="600px">
+      <img src="../assets/Slide3.JPG"  width="550px" height="620px">
     </div>
   </div>
 
@@ -229,7 +229,7 @@
   </div>
 
 
-  <div class="row slide5 zigzag" style="background-color: yellow; height: 700px">
+  <div class="row slide5 zigzag" style="background-color: #f7e603; height: 700px">
     <div class="row" style="height: 150px;">
       <h2 class="slide5Header">Streaming Yummy recipies with Oats</h2>
     </div>
@@ -249,18 +249,109 @@
 
   <div class="row slide4 zigzagTop" style="background-color: red; height: 700px">
     <div class="row">
-      <div class="col">
-        <h2 class="mb-5 slide5Header" style="color: white; margin-left: 25rem;"> Follow us</h2>
-      </div>
-      <div class="col">
-        <h2 class="mb-5 slide5Header" style="color: goldenrod;">@safolafitfoodie</h2>
+      <div class="col" style="clear: both;">
+        <h2 class="slide6Header" style="float: left; color: white; margin-left: 10rem;"> Follow us  </h2>
+        <h2 class="slide6Header" style="float: left; color: rgb(255, 188, 19); margin-left: 1rem;">@safolafitfoodie</h2>
+        <div style="float: right; margin-right: 3rem; margin-top: 4rem;">
+          <i style="margin-right: 2rem;" class="fab fa-facebook-f socialmedia"></i>
+          <i style="margin-right: 2rem;" class="fab fa-instagram socialmedia"></i>
+          <i style="margin-right: 2rem;" class="fab fa-youtube socialmedia"></i>
+        </div>
       </div>
     </div>
-    <div class="row steps">
-      <div class="col-3" *ngFor="let step of steps">
-        <div class="logo">
-          <img [src]="step.src" alt="">
-          <p class="p2">{{step.desc}}</p>
+    <div class="row">
+      <ngb-carousel [activeId]="1" class="slide2carousel">
+        <ng-template ngbSlide>
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <img src="../assets/slide2sub3.JPG" alt="" height="80px" width="90px">
+                      </div>
+                      <div class="col cardDesc">
+                        <p class="slide2p">Classic Oats</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/slide2sub2.JPG" alt="" height="80px" width="90px">
+                    </div>
+                    <div class="col cardDesc">
+                      <p class="slide2p">Masala Oats</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/slide2sub3.JPG" alt="" height="80px" width="90px">
+                    </div>
+                    <div class="col cardDesc">
+                      <p class="slide2p">High Fiber Oats</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="row">
+            <div class="col-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/slide2sub4.JPG" alt="" height="80px" width="90px" style="margin-bottom: 2rem;">
+                    </div>
+                    <div class="col cardDesc">
+                      <p class="slide2p">Oats</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/slide2sub2.JPG" alt="" height="80px" width="90px">
+                    </div>
+                    <div class="col cardDesc">
+                      <p class="slide2p">Classic Oats</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="row">
+      <div class="col" style="clear: both;">
+        <div style="float: left;margin-left: 10rem; margin-top: 4rem; clear: both; color: thistle;">
+          <h5><i class="far fa-envelope" style="margin-right: 1rem;"></i>css@marico.com <i class="fas fa-phone-alt" style="margin-left: 3rem; margin-right: 1rem;"></i>1800-2345-6789</h5>
+        </div>
+        <div style="float: right; margin-right: 3rem;  margin-top: 4rem;">
+          <p style="color: thistle;"><a class="anchorTag" href="#">Terms & conditions</a> |
+            <a class="anchorTag" href="#">Private Policy</a>  | <i class="far fa-copyright"></i> 2021 Safola. All rights Reserved</p>
         </div>
       </div>
     </div>
