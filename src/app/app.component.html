@@ -1,45 +1,50 @@
 <div class="container">
-  <div class="row" style="height: 800px;">
-    <ngb-carousel class="col-12 modal hide">
-      <ng-template ngbSlide>
-        <div >
-          <div class="row color" >
-            <div class="col-6">
-              <img  class="imageSlide1" alt="">
-            </div>
-            <div class="col-6 division2">
-              <app-navbar></app-navbar>
-              <p class="text"> lip-smacking flavors to </p>
-              <p class="snack">snack healthy</p>
-              <p class="oats">with wholegrain oats + real veggies</p>
-            </div>
-          </div>
-        </div>
-      </ng-template>
-      <ng-template ngbSlide>
-        <div class="color">
-          <div class="row">
-            <div class="col-6">
-              <img src="https://i.ytimg.com/vi/LMHBJCCaRmk/hqdefault.jpg" alt="">
-            </div>
-            <div class="col-6 division2">
-              <app-navbar></app-navbar>
+  <div class="row" style="height: 615px;margin-bottom: -4rem;">
+    <div class="col">
+      <ngb-carousel class=" modal hide" data-interval="false" style="margin-left: -12px;width: 82.5rem;">
+        <ng-template ngbSlide>
+          <div class=" mt-6">
+            <div class="row color" >
+              <div class="col-6">
+                <img class="oats1" src="../assets/oats1.png" alt="">
+                <img class="oats2" src="../assets/oats2.png" alt="">
+                <img class="oats3" src="../assets/oats3.png" alt="">
+              </div>
+              <div class="col division2">
+                <app-navbar></app-navbar>
+                <p class="text"> lip-smacking flavors to </p>
+                <p class="snack">snack healthy</p>
+                <p class="oats">with wholegrain oats + real veggies</p>
+              </div>
             </div>
           </div>
-        </div>
-      </ng-template>
-      <ng-template ngbSlide>
-        <div class="color">
-          <div class="row">
-            <div class="col-6">
-            </div>
-            <div class="col-6 division2">
-              <app-navbar></app-navbar>
+        </ng-template>
+        <!-- <ng-template ngbSlide>
+          <div class="color">
+            <div class="row">
+              <div class="col-6">
+                <img src="../assets/oats1.png" alt="">
+              </div>
+              <div class="col-6 division2">
+                <app-navbar></app-navbar>
+              </div>
             </div>
           </div>
-        </div>
-      </ng-template>
-    </ngb-carousel>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="color">
+            <div class="row">
+              <div class="col-6">
+              </div>
+              <div class="col-6 division2">
+                <app-navbar></app-navbar>
+              </div>
+            </div>
+          </div>
+        </ng-template> -->
+      </ngb-carousel>
+    </div>
+
   </div>
 
  <div class="row slide2 slide2Zigzag" style="height: 800px;">
@@ -58,10 +63,6 @@
     </div>
   </div>
   <div class="row" style="height: 300px;">
-
-
-
-
     <ngb-carousel [activeId]="1" class="slide2carousel">
       <ng-template ngbSlide>
         <div class="row">
@@ -209,12 +210,10 @@
         </div>
       </div>
     </div>
-    <div class="col-5">
+    <div class="col-5" style="margin-left: -13px;">
       <img src="../assets/Slide3.JPG"  width="550px" height="620px">
     </div>
   </div>
-
-
 
   <div class="row slide4 slide4Zigzag" style="height: 600px">
     <h1 class="mb-5"> Easy to Cook Easy to serve!</h1>
@@ -227,7 +226,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="row slide5 zigzag" style="background-color: #f7e603; height: 700px">
     <div class="row" style="height: 150px;">
@@ -269,13 +267,13 @@
               </div>
             </div>
             <div class="col-4">
-              <div class="card lastSlideCarousel"><img src="../assets/newyear.jpg" class="card-img-top" alt="">
-
+              <div class="card lastSlideCarousel">
+                <img src="../assets/newyear.jpg" class="card-img-top" alt="">
               </div>
             </div>
             <div class="col-4">
-              <div class="card lastSlideCarousel"><img src="../assets/fstival.jpg" class="card-img-top" alt="">
-
+              <div class="card lastSlideCarousel">
+                <img src="../assets/fstival.jpg" class="card-img-top" alt="">
               </div>
             </div>
           </div>

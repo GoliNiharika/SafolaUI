@@ -1,3 +1,40 @@
+.padding{
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.oats1{
+  height: 250px;
+  width: 220px;
+  left: 2rem;
+  margin-top: 6rem;
+  margin-left: 7rem;
+  /* top: 2rem; */
+  transform: rotate(0deg);
+  z-index: 1;
+}
+.oats2{
+  /* top: 2rem; */
+  margin-left: -7rem;
+  height: 250px;
+  width: 220px;
+  margin-top: 15rem;
+  /* left: 3rem; */
+  transform: rotate(10deg);
+  z-index: 2;
+}
+.oats3{
+  /* top: 2rem; */
+  margin-left: -5rem;
+  height: 250px;
+  width: 200px;
+  margin-top: 6rem;
+  /* left: 6rem; */
+  transform: rotate(-10deg);
+  z-index: 0;
+}
 ngb-carousel .wrapper {
   position: relative;
   height: 0;
@@ -204,6 +241,25 @@ h1{
   font-family: cursive;
   font-weight: bold ;
   margin-top: 4rem;
+}
+.zigzagSlide1 {
+  position: relative;
+  padding: 8px 8px 32px 8px;
+  background: #dddccf;
+}
+
+.zigzagSlide1:after {
+background: linear-gradient(-45deg, #ffc10742 16px, transparent 0), linear-gradient(45deg, #ffc10742 16px, transparent 0);
+background-position: left-bottom;
+background-repeat: repeat-x;
+background-size: 32px 32px;
+content: " ";
+display: block;
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 100%;
+height: 32px;
 }
 
 .zigzag {
